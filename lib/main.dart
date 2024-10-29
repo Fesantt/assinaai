@@ -87,9 +87,7 @@ class _WebSocketPageState extends State<WebSocketPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('WebSocket Signature Demo'),
-      // ),
+
       body: _isSigning ? _buildSignaturePage() : WaitingPage(),
     );
   }
