@@ -7,7 +7,6 @@ import 'signature_widget.dart';
 import 'waiting_page.dart';
 import 'package:flutter/services.dart';
 
-
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);

@@ -18,8 +18,8 @@ class SignatureWidget extends StatelessWidget {
       ),
       child: Signature(
         key: signatureKey,
-        color: Colors.black, // Cor do traço
-        strokeWidth: 5.0,   // Largura do traço
+        color: Colors.black,
+        strokeWidth: 2.0,
         onSign: () {
           print('User signed');
         },

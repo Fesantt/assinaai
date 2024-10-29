@@ -12,11 +12,11 @@ class ControlsWidget extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         ElevatedButton(
-          onPressed: onConfirm, // Envia a assinatura
+          onPressed: onConfirm,
           child: Text('Confirmar'),
         ),
         ElevatedButton(
-          onPressed: onClear, // Limpa a assinatura
+          onPressed: onClear,
           child: Text('Limpar'),
         ),
       ],

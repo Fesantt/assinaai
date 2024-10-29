@@ -13,6 +13,7 @@ class _WaitingPageState extends State<WaitingPage> {
     'lib/assets/image2.jpg',
     'lib/assets/image3.jpg',
   ];
+
   int _currentPage = 0;
   Timer? _timer;
 
