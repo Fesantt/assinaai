@@ -4,6 +4,8 @@ Projeto simples de coleta de assinaturas no balcão utilizando tablet ou qualque
 Projeto de facil integraçção e manutenção.
 
 O Websocket server está na pasta ```Websocket```
+Para melhor uso compile o mesmo usando a biblioteca ``` PyInstaller ```
+
 
 ## DEMO
 
