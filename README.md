@@ -6,6 +6,9 @@ Projeto de facil integraçção e manutenção.
 O Websocket server está na pasta ```Websocket```
 Para melhor uso compile o mesmo usando a biblioteca ``` PyInstaller ```
 
+![image](https://github.com/user-attachments/assets/a981a05f-34ff-4ac1-98c6-df930de23c37)
+
+
 
 ## DEMO
 
