@@ -26,7 +26,7 @@ class _SignatureDrawerState extends State<SignatureDrawer> {
       },
       onPanEnd: (details) {
         setState(() {
-          widget.points.add(null); // Adiciona um separador para a linha
+          widget.points.add(null);
         });
       },
       child: Container(
@@ -36,8 +36,8 @@ class _SignatureDrawerState extends State<SignatureDrawer> {
         child: CustomPaint(
           painter: SignaturePainter(widget.points),
           child: Container(
-            width: double.infinity, // Largura total disponível
-            height: 200, // Altura fixa da assinatura
+            width: double.infinity,
+            height: 200,
           ),
         ),
       ),
@@ -79,17 +79,16 @@ class SignaturePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Desenho de Assinatura'),
       ),
-      body: SingleChildScrollView( // Permite rolagem se necessário
+      body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
             Text('Desenhe sua assinatura abaixo:'),
             SizedBox(height: 20),
-            SignatureDrawer(points: _points), // Passa a lista de pontos
+            SignatureDrawer(points: _points),
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                // Aqui você pode implementar a lógica para salvar ou limpar a assinatura
                 _points.clear();
               },
               child: Text('Limpar Assinatura'),

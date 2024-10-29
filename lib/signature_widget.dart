@@ -19,7 +19,7 @@ class SignatureWidget extends StatelessWidget {
       child: Signature(
         key: signatureKey,
         color: Colors.black,
-        strokeWidth: 2.0,
+        strokeWidth: 1.0,
         onSign: () {
           print('User signed');
         },
