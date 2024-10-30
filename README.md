@@ -1,6 +1,6 @@
 # assinaai
 
-Projeto simples de coleta de assinaturas no balcão utilizando tablet ou qualquer outro dispositivo android com tela sencivel ao toque
+Projeto simples de coleta de assinaturas no balcão utilizando tablet ou qualquer outro dispositivo android com tela sensivel ao toque
 Projeto de facil integraçção e manutenção.
 
 O Websocket server está na pasta ```Websocket```
